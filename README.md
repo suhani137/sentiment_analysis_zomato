@@ -1,2 +1,6 @@
-# sentiment_analysis_zomato
-Sentiment analysis of Zomato restaurant reviews
+Sentiment analysis of Zomato restaurant reviews: A model predicting sentiment for a restaurant based on the amenities provided.
+
+1. Data was collected from Zomato website for 252 most popular restaurants in and around Connaught Place in Delhi. For each restaurant, 10 most recent reviews, cost for two and hours of operations were captured.
+2. Along with that, rating given by customer for each review was also taken into account. In total, 2,520 reviews were collected.
+For each restaurant, ctaegorial variables with Yes/No: Zomato Gold, ongoing promotions, online ordering, quick bites, casual dining, bakery, café, sweet shops, beverage shop,  fine dining, lounge, full bar available, live sports screening, live entertainment, valet parking, indoor seating, outdoor seating, nightlife, smoking area, serves alcohol, buffet, breakfast, brunch, wheelchair accessible, desserts and bakes, vegetarian only, WiFi, kid friendly, above 18 only, takeaway only and delivery only.
+2. After classifying each of the 2,520 reviews as positive or negative, The model determines what factors lead to a positive or negative perception about a restaurant. Taking sentiment (positive/negative) as the target variable, and rest 42 variables related to amenities as independent, machine learning models were run to predict sentiment. Different algorithms including, decision tree, random forest, naive bayes and support vector machine were used.
